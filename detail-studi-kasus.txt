@@ -1,15 +1,16 @@
 Aplikasi Buku Kontak
 
--Layouting
--Bikin Logic
+-Layouting (Sudah)
+-Bikin Logic 
 
 Fitur:
- 1. Buat Kontak
- 2. Edit Kontak
- 3. Hapus Kontak
- 4. Login
- 5. Register
+ 1. Buat Kontak (Sudah)
+ 2. Edit Kontak (Sudah)
+ 3. Hapus Kontak (Sudah)
+ 4. Login (Sudah)
+ 5. Register (Sudah)
 
 
 Library:
 1.Bootsrap
+2.Sweetalert2
