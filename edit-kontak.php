@@ -1,6 +1,7 @@
 <?php
 
 include('config.php');
+include('hak-akses.php');
 $id = $_GET['id'];
 $data = $conn->query("SELECT * FROM `kontak` WHERE id = '$id'");
 $data = $data->fetch_assoc();
@@ -53,6 +54,7 @@ $data = $data->fetch_assoc();
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

@@ -9,6 +9,8 @@ Fitur:
  3. Hapus Kontak (Sudah)
  4. Login (Sudah)
  5. Register (Sudah)
+ 6. Hak Akses
+ 7. Notif (Sudah)
 
 
 Library:

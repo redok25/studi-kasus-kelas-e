@@ -12,7 +12,7 @@
             </li>
         </ul>
         <form class="d-flex" role="search">
-            <a class="btn btn-outline-success" href="register.php">Register</a>
+            <a class="btn btn-outline-success" href="proses/logout.php">Logout</a>
         </form>
         </div>
     </div>

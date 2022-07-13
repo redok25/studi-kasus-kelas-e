@@ -1,3 +1,5 @@
+<?php include 'config.php'; ?>
+
 <!doctype html>
 <html lang="en">
 
@@ -21,12 +23,12 @@
                     <form action="proses/login.php" method="POST">
                         <div class="mb-3">
                             <label for="inputUsername" class="form-label">Username</label>
-                            <input name="username" placeholder='Input disini...' type="text" class="form-control" id="inputUsername">
+                            <input name="username" placeholder='Input disini...' type="text" class="form-control" required id="inputUsername">
                         </div>
 
                         <div class="mb-3">
                             <label for="inputPassword" class="form-label">Password</label>
-                            <input name="password" placeholder='Input disini...' type="password" class="form-control" id="inputPassword">
+                            <input name="password" required minlength="8" placeholder='Input disini...' type="password" class="form-control" id="inputPassword">
                         </div>
                         <hr>
 
@@ -39,6 +41,9 @@
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <?php include 'notif.php'; ?>
 </body>
 
 </html>
